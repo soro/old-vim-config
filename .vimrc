@@ -15,6 +15,8 @@ set mouse=nchr
 set guifont=Inconsolata:h14 
 set rnu
 
+nmap <silent> <S-t> :CommandT<CR>
+
 if has('mac')
 	" Enable "+y (copy to clipboard) on OS X
 	vno <silent> "+y :<c-u>cal<SID>Copy()<cr>
