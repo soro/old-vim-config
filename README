@@ -1,0 +1,2 @@
+This is a simple but good starting configuration including snippets, better tab completion, latex support, autopairing and git support. The color theme is molokai.
+To install, simply clone this repository to ~/.vim and then link the .vimrc to your home directory via ln -s .vim/.vimrc .vimrc
