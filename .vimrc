@@ -1,3 +1,9 @@
+" Set up vim-latex
+filetype plugin on
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+
+" Some sensible defaults
 set shm=atI
 set ttyfast
 set titlestring=%f title
@@ -7,6 +13,7 @@ set hidden
 set enc=utf-8
 set mouse=nchr
 set guifont=Inconsolata:h14 
+set rnu
 
 if has('mac')
 	" Enable "+y (copy to clipboard) on OS X
