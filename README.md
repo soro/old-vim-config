@@ -5,6 +5,8 @@ Line numbering ist set to be relative, which you can change by removing the line
 
 Included plugins
 ----------------
+* matchit - extend matching via %
+* surround - easy and versatile surrounding of expressions
 * yankring - emulates Emacs' killring.
 * command-t - similar to Textmates command-t and fuzzysearch.
 * fugitive - very good Git wrapper.
