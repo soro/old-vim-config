@@ -8,6 +8,14 @@ If you don't like the relative line numbering, remove this line
 <code>set rnu</code>.
 It makes things like x-dd much more useful though, as you don't have to count the lines you want to delete.
 
+If you want to have a menubar, remove the following lines from .vimrc
+<code>
+if has("gui_running")
+	set guioptions=-m
+	set guioptions=-T
+endif
+</code>
+
 Included plugins
 ----------------
 * matchit - extend matching via %

@@ -17,6 +17,10 @@ set guifont=Inconsolata:h14
 set rnu
 set hlsearch
 
+" Set theme to dark version of molokai
+colorscheme molokai
+let g:molokai_original = 1
+
 " Set command-space to esc in insert mode
 imap <C-space> <Esc>
 
@@ -33,6 +37,11 @@ if has('mac')
 		call system('pbcopy', @")
 		let @" = old
 	endf
+endif
+" Remove menubar etc.
+if has("gui_running")
+	set guioptions-=m
+	set guioptions-=T
 endif
 
 call pathogen#runtime_append_all_bundles()
