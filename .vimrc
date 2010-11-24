@@ -15,6 +15,7 @@ set enc=utf-8
 set mouse=nchr
 set guifont=Inconsolata:h14 
 set rnu
+set hlsearch
 
 nmap <silent> <S-t> :CommandT<CR>
 
