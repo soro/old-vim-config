@@ -13,8 +13,11 @@ set enc=utf-8
 set fileencoding=utf-8
 set mouse=nchr
 set guifont=Inconsolata:h14 
-set rnu
 set showmatch
+
+if has("gui_running")
+    set rnu
+endif
 
 " Search settings
 set incsearch
