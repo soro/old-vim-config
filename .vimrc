@@ -17,6 +17,10 @@ set guifont=Inconsolata:h14
 set rnu
 set hlsearch
 
+" Set command-space to esc in insert mode
+imap <C-space> <Esc>
+
+" make command-t open on shift-t instead
 nmap <silent> <S-t> :CommandT<CR>
 
 if has('mac')

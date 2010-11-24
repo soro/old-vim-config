@@ -1,7 +1,12 @@
 Simple but good starting configuration for Vim
 ==============================================
-Line numbering ist set to be relative, which you can change by removing the line
-<code>set rnu</code>
+I prefer to map ctrl+space to ESC to make it faster to exit insert mode and allow you to keep the hands on home row. If you don't like this, remove the line <code>imap <C-space> <Esc></code> from .vimrc
+
+The font is set to Inconsolata. Unless you have installed this font, you won't have it and will need to remove the line <code>set guifont=Inconsolata:h14</code>. It is a very nice coding font however and I heartily recommend it.
+
+If you don't like the relative line numbering, remove this line
+<code>set rnu</code>.
+It makes things like x-dd much more useful though, as you don't have to count the lines you want to delete.
 
 Included plugins
 ----------------
@@ -21,4 +26,4 @@ Most of these are included as git submodules and they're all managed by pathogen
 
 Installation
 ------------
-To install, simply clone this repository to ~/.vim and then link the .vimrc to your home directory via "ln -s ~/.vim/.vimrc ~/.vimrc". You might also have to do a "rake make" in bundle/command-t. For this you will need a working C compiler and a relatively recent version of Ruby.
+To install, simply clone this repository to ~/.vim and then link the .vimrc to your home directory via <code>ln -s ~/.vim/.vimrc ~/.vimrc</code>. You might also have to do a <code>rake make</code> in bundle/command-t. For this you will need a working C compiler and a relatively recent version of Ruby.
