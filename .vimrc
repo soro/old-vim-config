@@ -2,6 +2,7 @@
 filetype plugin on
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
+let g:Tex_ViewRule_pdf = 'Preview'
 
 " Some sensible defaults
 set shm=atI
