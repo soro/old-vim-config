@@ -15,7 +15,7 @@ set mouse=nchr
 set guifont=Inconsolata:h14 
 set showmatch
 
-if has("gui_running")
+if has('gui_running')
     set rnu
 endif
 
