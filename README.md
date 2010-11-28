@@ -9,12 +9,10 @@ If you don't like the relative line numbering, remove this line
 It makes things like x-dd much more useful though, as you don't have to count the lines you want to delete.
 
 If you want to have a menubar, remove the following lines from .vimrc
-<code>
-if has("gui_running")
-	set guioptions=-m
-	set guioptions=-T
-endif
-</code>
+    if has("gui_running")
+        set guioptions=-m
+        set guioptions=-T
+    endif
 
 Included plugins
 ----------------

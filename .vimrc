@@ -24,7 +24,11 @@ set smartindent
 set autoindent
 
 " Highlight all comlumns beyond 80
-set colorcolumn=80
+if has("colorcolumn")
+  set colorcolumn=80
+else
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
 
 " Search settings
 set incsearch
