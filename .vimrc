@@ -19,12 +19,19 @@ if has('gui_running')
     set rnu
 endif
 
+" Indent settings
+set smartindent
+set autoindent
+
+" Highlight all comlumns beyond 80
+set colorcolumn=80
+
 " Search settings
 set incsearch
 set hlsearch
 set ignorecase smartcase
 
-" Insert spaces instead of tabs
+" Insert spaces instead of tabs and set default indent to 4
 set expandtab
 set shiftwidth=4
 set tabstop=4
