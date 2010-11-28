@@ -20,14 +20,17 @@ Included plugins
 ----------------
 * matchit - extend matching via %
 * surround - easy and versatile surrounding of expressions
+* repeat - repeat more commands with '.'
 * yankring - emulates Emacs' killring.
 * command-t - similar to Textmates command-t and fuzzysearch.
 * fugitive - very good Git wrapper.
 * delimitmate - autopairing for delimiters like "(".
 * NERDTree - file browser.
+* kwbd - close buffer while keeping window open (command is :Kwbd)
 * snipmate - Texmate like snippets for Vim.
 * supertab - great tab completion.
 * tcomment - smart file type dependent comments.
+* ack - ack (better grep replacement) support
 * latex - LaTeX support.
 
 Most of these are included as git submodules and they're all managed by pathogen, so updating, removal and addition of plugins is easy.
