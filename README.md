@@ -26,7 +26,7 @@ Included plugins
 * fugitive - very good Git wrapper.
 * delimitmate - autopairing for delimiters like "(".
 * NERDTree - file browser.
-* kwbd - close buffer while keeping window open (command is :Kwbd)
+* kwdb - close buffer while keeping window open (command is :Kwdb)
 * snipmate - Texmate like snippets for Vim.
 * supertab - great tab completion.
 * tcomment - smart file type dependent comments.

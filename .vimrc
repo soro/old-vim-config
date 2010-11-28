@@ -40,6 +40,8 @@ set tabstop=4
 colorscheme molokai
 let g:molokai_original = 1
 
+imap <C-Return> <ESC>$a;<ESC>o
+
 " Set command-space to esc in insert mode
 imap <C-space> <Esc>
 
