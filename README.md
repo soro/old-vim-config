@@ -18,9 +18,9 @@ If you want to have a menubar, remove the following lines from .vimrc
 
 ```vimscript
 if has("gui_running")
-        set guioptions=-m
-        set guioptions=-T
-    endif
+    set guioptions=-m
+    set guioptions=-T
+endif
 ```
 
 Included plugins
